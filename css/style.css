@@ -1,0 +1,295 @@
+
+body {  
+    margin: 0px;   
+}
+.fullScreen {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+html{scroll-behavior:smooth}
+
+h1 {
+    text-align: left;
+    float: left;
+    font-size: 60px;
+    font-family: 'Proxima Nova';
+    font-style: bold;
+    margin: 30px;
+    position: absolute;
+}
+h2 {
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    position: absolute;
+    padding: 0;
+    margin: 160px 0px 5px 35px;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    color: #000000;
+    font-family: 'Righteous', sans-serif;
+    font-size: 20px;
+    float: left; 
+    font-weight: 300;
+    font-weight: bold;
+}
+h4 {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 25px; 
+    font-weight: 500;
+}
+h5 {
+    color: #F8F5F1;
+    text-align:right;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+}
+p{
+    font-size: 18px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    line-height: 28px;
+    font-weight: 300;
+    margin: 0px;
+}
+.topnav{
+    background-color: #F8F5F1;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    z-index: 1;
+    position: fixed;
+    top: 0;  
+    box-shadow: 0px 2px 0px 0px #1E1F24;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: regular;
+    line-height: 60px;
+}
+.topnav a {
+    float: right;
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 25px 0px 25px;
+  }
+.topnav a:hover{
+    background-color: #1E1F24;
+    color: #ffffff;
+  }
+.topnav a.active {
+    color: #1E1F24;
+    text-decoration: underline;
+  }
+.text {
+    width: 100%;
+    float: left;   
+    display: flex;
+    flex-direction: column;
+}
+.hello {
+    height: 30px;
+    width: 88%;
+    margin-top: 50px;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.maintext {
+    height: 280px;
+    width: 40%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.image{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;    
+}
+.halfImage{
+    width: 80%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.rightImage {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#imageLeft{
+    width: 90%;
+    height: auto;
+    float: left;
+}
+#imageRight{
+    width: 90%;
+    height: auto;
+    float: right;
+}
+.UXskillsimg {
+    width: 100%;
+    height: auto;
+    margin: 30px; 
+    float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Portfolio{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 100%;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 52px;
+    background-color:#C1D7E5;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    position: relative;
+}
+.TwoCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.cards {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    background-color:#F8F5F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+.card:hover{
+    transform: scale (1.05);
+    transition: 0.2s ease-in-out;
+}
+.cardImage{
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.cardDescription {
+    width: 90%;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.info{
+    height: 160px;
+    width: 100%;
+    background-color: #1E1F24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: right;
+}
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #C1D7E5;
+  margin-bottom: 30px;
+}
+.flexContainer > div {
+  background-color: #F8F5F1;
+  width: 33%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.MyUXskills {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    width: 100%;
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .inspirationImage {
+    width: 40%;
+    height: auto;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    width: 100%;
+}
+.UXprojects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.largeCard {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+}
+.imageUX {
+    width: 72%;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }

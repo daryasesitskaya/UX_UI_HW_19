@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-
+<html>
     <head>
     <title>Darya Sesitskaya</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="images/Component 2.png">
     </head>
 
+<!-- Navbar -->
     <body>
-<section class="fullScreen"></section>
-<div class="topnav" id="myTopnav">
-    <a href="#Contact" onclick="myFunction()">Contact</a>
-    <a href="#Resume" onclick="myFunction()">Resume</a>
-    <a href="#About" onclick="myFunction()">About</a>
-    <a href="#Projects" onclick="myFunction()">Projects</a>
-    <a href="#Home" onclick="myFunction()">Home</a>
+        <nav>
+<div class="logo">
+    <h3>Darya Sesitskaya</h3>
 </div>
+<ul class="nav-links">
+    <li><a href="#Projects" onclick="myFunction()">Projects</a></li>
+    <li><a href="#About" onclick="myFunction()">About</a></li>
+    <li><a href="#Resume" onclick="myFunction()">Resume</a></li>
+    <li><a href="#Contact" onclick="myFunction()">Contact</a></li>
+</ul>
+<div class="burger">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+</div>
+</div>
+</nav>
+
+<!-- Ahout me -->
 <section class="halfImage" id="about">
     <div class="rightImage">
         <div class="image">
@@ -93,6 +105,41 @@
     <div class="grid-item"><img class="inspirationImage"  src="images/Charco Hi.png"><p>Film photography</p></div>  
   </div>
 
+  <!-- The Education & Volunteer Experience Section -->
+  <div class="w3-black" id="education">
+    <div class="w3-container w3-content w3-padding-64" id="University">
+      <h6 class="w3-wide w3-center">EDUCATION & CERTIFICATIONS</h6>
+      <p class="w3-opacity w3-center"><i>My life is always connected with creativity, but at the same time it is always about being useful business.</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding toggle">
+         Education
+         <span class="plus_minus">+</span>
+         <div class="toggleContainer">
+           <div class="w3-padding">UC Berkeley Extension. UX/UI Design.</div>
+           <div class="w3-padding">European Humanities Iniversity. Bachelor's degree.</div>
+         </div>
+        </li>
+
+        <li class="w3-padding toggle">
+            Licenses & Certifications
+            <span class="plus_minus toggle">+</span>
+            <div class="toggleContainer">
+              <div class="w3-padding">Certified Product Marketing Manager (CPMM)</div>
+              <div class="w3-padding">Certificate  “Journalism and Media Production”</div>
+            </div>
+           </li>
+
+        <li class="w3-padding toggle">
+            Volunteer Experience
+           <span class="plus_minus toggle">+</span>
+           <div class="toggleContainer">
+             <div class="w3-padding">TechCrunch. 2019 Disrupt SF Volunteer.</div>
+             <div class="w3-padding">Let's Do It Foundation. Organization  of the World Cleaning Day in Belarus.</div>
+           </div></div>
+          </li>
+        </ul>
+
 <section class="info">
     <div id="info">
         <div class="social">
@@ -100,7 +147,19 @@
         <h5>Dribble</h5>
         <h5>LinkedIn</h5>
     </div>
-    <p id="textcenyer"> <br><h5>Designed & developed by Darya Sesitskaya</h5></p>
+    <p id="textcenyer"> <br><h5>Designed & Developed by Darya Sesitskaya</h5></p>
+
 </section>
-    </body>
+
+    <script srcsript
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" 
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" 
+    crossorigin="anonymous"></script>
+    <script src=".app/js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/template.js"></script>
+<script src="js/index.js"></script>
+
+</body>
     </html>

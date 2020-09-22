@@ -1,11 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "../../../Downloads/CSS Positioning"
+			"path": "."
 		},
 		{
-			"path": "."
+			"path": "../../../Downloads/Band_Animated"
 		}
-	],
-	"settings": {}
+	]
 }

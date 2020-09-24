@@ -11,6 +11,9 @@ nav {
     background-color: #C1D7E5;
     font-family: "Proxima Nova", sans-serif;
 }
+.nav-active{
+    transform: translateX(0%);
+}
 .logo {
 color: #1E1F24;
 text-transform: uppercase;
@@ -41,6 +44,59 @@ font-size: 20px;
     background-color: #1E1F24;
     margin: 5px;
 }
+.topnav{
+    background-color: #F8F5F1;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    z-index: 1;
+    position: fixed;
+    top: 0;  
+    box-shadow: 0px 2px 0px 0px #1E1F24;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: regular;
+    line-height: 60px;
+}
+.topnav a {
+    float: right;
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 25px 0px 25px;
+  }
+.topnav a:hover{
+    background-color: #1E1F24;
+    color: #ffffff;
+  }
+.topnav a.active {
+    color: #1E1F24;
+    text-decoration: underline;
+  }
+  .topnav.responsive {
+    position: fixed;
+    
+}
+.topnav.responsive .icon {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  box-shadow: none;
+  
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+  background-color: #ffffff;
+  height: 80px;
+  line-height: 80px;
+  box-shadow: 0px 3px 0px 0px #ffffff;
+}
+.topnav.responsive #contact {
+box-shadow: 0px 3px 0px 0px #1f0009;}
+
 .fullScreen {
     background-color: #FFFFFF;
     display: flex;
@@ -117,60 +173,6 @@ p{
     font-weight: 300;
     margin: 0px;
 }
-.topnav{
-    background-color: #F8F5F1;
-    width: 100%;
-    height: 60px;
-    position: absolute;
-    z-index: 1;
-    position: fixed;
-    top: 0;  
-    box-shadow: 0px 2px 0px 0px #1E1F24;
-    font-family: 'Lato', sans-serif;
-    font-size: 17px;
-    font-weight: regular;
-    line-height: 60px;
-}
-.topnav a {
-    float: right;
-    display: inline-block;
-    color: #000000;
-    text-align: center;
-    text-decoration: none;
-    padding: 0px 25px 0px 25px;
-  }
-.topnav a:hover{
-    background-color: #1E1F24;
-    color: #ffffff;
-  }
-.topnav a.active {
-    color: #1E1F24;
-    text-decoration: underline;
-  }
-  .topnav.responsive {
-    position: fixed;
-    
-}
-.topnav.responsive .icon {
-  position: fixed;
-  right: 0px;
-  top: 0px;
-  box-shadow: none;
-  
-}
-.topnav.responsive a {
-  float: none;
-  display: block;
-  text-align: left;
-  background-color: #ffffff;
-  height: 80px;
-  line-height: 80px;
-  box-shadow: 0px 3px 0px 0px #ffffff;
-}
-
-.topnav.responsive #contact {
-box-shadow: 0px 3px 0px 0px #1f0009;}
-
 .text {
     width: 100%;
     float: left;   
@@ -240,6 +242,7 @@ box-shadow: 0px 3px 0px 0px #1f0009;}
     padding-top: 50px;
     width: 100%;
 }
+
 .tag{
     display: flex;
     align-items: center;
@@ -258,7 +261,6 @@ box-shadow: 0px 3px 0px 0px #1f0009;}
     width: 100%;
     margin-bottom: 60px;
 }
-
 .cards {
     width: 80%;
     display: flex;
@@ -570,28 +572,6 @@ a:active,a:hover{
         display: block;
     }
 }
-.nav-active{
-    transform: translateX(0%);
-}
-.preloader {
- position: fixed;
- width: 100%;
- height: 100vh;
- z-index: 100000;
- background-color: white;
- top: 0;
- display: flex;
- align-items: center;
-}
-
-.preloader img {
- animation: spin 3s ease;
- transition: all;
- width: 100px;
- margin: 0 auto;
-}
-
-
 @keyframes navlinkFade{
     from{
         opacity: 0;

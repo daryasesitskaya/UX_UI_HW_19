@@ -36,6 +36,4 @@ navLinks.forEach((link, index) => {
 
 
 }
-
-
 navSlide();

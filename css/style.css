@@ -242,7 +242,6 @@ p{
     padding-top: 50px;
     width: 100%;
 }
-
 .tag{
     display: flex;
     align-items: center;
@@ -264,7 +263,6 @@ p{
 .cards {
     width: 80%;
     display: flex;
-    justify-content: space-between;
 }
 .card{
     width: 30%;
@@ -273,10 +271,12 @@ p{
     flex-direction: column;
     align-items: center;
     margin: 0 10px;
+
 }
 .card:hover{
     transform: scale (1.05);
     transition: 0.2s ease-in-out;
+
 }
 .cardImage{
     width: 90%;
@@ -421,11 +421,6 @@ p{
 }
 .w3-opacity,.w3-hover-opacity:hover{
     opacity:0.60;
-}
-.w3-ul {
-    ist-style-type:none;
-    padding:0;
-    margin:0;
 }
 .w3-border-0{
     border: 0px;
